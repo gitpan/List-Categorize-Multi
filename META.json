@@ -16,6 +16,7 @@
    "prereqs" : {
       "build" : {
          "requires" : {
+            "Test::Deep" : "0",
             "Test::More" : "0",
             "Test::NoWarnings" : "0"
          }
@@ -29,7 +30,7 @@
    "provides" : {
       "List::Categorize::Multi" : {
          "file" : "lib/List/Categorize/Multi.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -41,5 +42,5 @@
          "url" : "https://github.com/damil/List-Categorize-Multi"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
